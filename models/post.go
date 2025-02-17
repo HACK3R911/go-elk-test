@@ -1,5 +1,7 @@
-package main
+package models
 
-func main() {
-
+type Post struct {
+	ID    int    `json:"id,omitempty"`
+	Title string `json:"title"`
+	Body  string `json:"body"`
 }
